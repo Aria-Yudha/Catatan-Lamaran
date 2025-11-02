@@ -20,9 +20,9 @@ Proyek ini dibangun menggunakan tumpukan teknologi (stack) berikut:
 
 * **Backend:** [PHP 8.x](https://www.php.net/)
 * **Framework:** [Laravel 11.x](https://laravel.com/)
-* **Database:** [MySQL](https://www.mysql.com/) (atau [PostgreSQL](https://www.postgresql.org/) - *sesuaikan dengan proyek Anda*)
-* **Frontend:** Blade Templates, [Tailwind CSS](https://tailwindcss.com/) (atau [Bootstrap](https://getbootstrap.com/) - *sesuaikan dengan proyek Anda*)
-* **Server Lokal:** Laravel Sail / Laragon / XAMPP (*sesuaikan dengan preferensi Anda*)
+* **Database:** [PostgreSQL](https://www.postgresql.org/) 
+* **Frontend:** Blade Templates, [Bootstrap](https://getbootstrap.com/) 
+* **Server Lokal:** Laravel Sail
 
 ---
 
