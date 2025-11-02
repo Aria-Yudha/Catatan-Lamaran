@@ -32,6 +32,7 @@ class LamaranController extends Controller
     public function store(Request $request)
     {
         $request->validate([
+            "nama_perusahaan"=> "required|string",
             "posisi_dilamar"=> "required",
             "id_portal"=> "required|exists:data_portal,id",
             "tanggal_lamar"=> "required | date",
@@ -39,6 +40,7 @@ class LamaranController extends Controller
         ]);
 
         Lamaran::create([
+            "nama_perusahaan" => $request->nama_perusahaan,
             "posisi_dilamar" => $request->posisi_dilamar,
             "id_portal"=> $request->id_portal,
             "tanggal_lamar"=> $request->tanggal_lamar,
@@ -72,6 +74,7 @@ class LamaranController extends Controller
     public function update(Request $request, string $id)
     {
         $request->validate([
+            "nama_perusahaan"=> "required|string",
             "posisi_dilamar"=> "required|string",
             "id_portal"=> "required|exists:data_portal,id",
             "tanggal_lamar" => "required|date",
@@ -80,6 +83,7 @@ class LamaranController extends Controller
             ]);
 
         Lamaran::find($id)->update([
+            "nama_perusahaan" => $request->nama_perusahaan,
             "posisi_dilamar"=> $request->posisi_dilamar,
             "id_portal"=> $request->id_portal,
             "tanggal_lamar"=> $request->tanggal_lamar,

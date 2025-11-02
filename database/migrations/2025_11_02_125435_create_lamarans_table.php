@@ -16,6 +16,7 @@ return new class extends Migration
             $table->foreignId('id_portal')
             ->constrained('data_portal')
             ->onDelete('cascade');
+            $table->string('nama_perusahaan');
             $table->string('posisi_dilamar');
             $table->date('tanggal_lamar');
             $table->string('status')->default('Dilamar');

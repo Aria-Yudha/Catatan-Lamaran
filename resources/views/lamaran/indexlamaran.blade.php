@@ -16,6 +16,7 @@
                 <thead>
                     <tr>
                     <th> No </th>
+                    <th> Nama Perusahaan</th>
                     <th> Posisi yang Dilamar</th>
                     <th> Portal Lamaran </th>
                     <th> Tanggal Melamar </th>
@@ -28,6 +29,7 @@
                     @forelse ($lamarans as $lamaran)
                     <tr>
                     <td>{{ $loop->iteration }}</td>
+                    <td>{{ $lamaran->nama_perusahaan }}</td>
                     <td>{{ $lamaran->posisi_dilamar }}</td>
                     <td>{{ $lamaran->Portal->nama_portal }}</td>
                     <td>{{ $lamaran->tanggal_lamar }}</td>
@@ -56,7 +58,7 @@
                     </tr>
                 @empty
                 <tr>
-                    <td colspan="7" class="py-2 px-4 border-b text-center">Data Tidak Ditemukan</td>
+                    <td colspan="8" class="py-2 px-4 border-b text-center">Data Tidak Ditemukan</td>
                 </tr>
                 @endforelse
                 </tbody>

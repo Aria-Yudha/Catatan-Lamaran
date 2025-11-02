@@ -8,6 +8,10 @@
                 @csrf
                 @method("PATCH")
                 <div class="form-group">
+                    <label>Nama Perusahaan</label>
+                    <input type="text" name="nama_perusahaan" class="form-control" value="{{ $lamaran->nama_perusahaan }}">
+                </div>
+                <div class="form-group">
                     <label>Posisi Pekerjaan</label>
                     <input type="text" name="posisi_dilamar" class="form-control" value="{{ $lamaran->posisi_dilamar }}">
                 </div>

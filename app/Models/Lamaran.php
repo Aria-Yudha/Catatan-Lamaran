@@ -17,6 +17,7 @@ class Lamaran extends Model
         'tanggal_lamar',
         'status',
         'keterangan',
+        'nama_perusahaan'
     ];
 
     public function portal()

@@ -7,6 +7,10 @@
             <form class="forms-sample" method="POST" action="{{ route('data-lamaran.store') }}">
                 @csrf
                 <div class="form-group">
+                    <label>Nama Perusahaan</label>
+                    <input type="text" name="nama_perusahaan" class="form-control" id="exampleInputName1">
+                </div>
+                <div class="form-group">
                     <label>Posisi Pekerjaan</label>
                     <input type="text" name="posisi_dilamar" class="form-control" id="exampleInputName1">
                 </div>
