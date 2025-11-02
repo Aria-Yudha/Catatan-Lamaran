@@ -8,9 +8,9 @@ Sebuah aplikasi web sederhana yang dibangun menggunakan framework Laravel untuk 
 
 * **Manajemen Lamaran (CRUD):** Tambah, lihat, edit, dan hapus data lamaran kerja.
 * **Pelacakan Status:** Pantau status setiap lamaran (misalnya: *Terkirim*, *Review*, *Interview*, *Diterima*, *Ditolak*).
-* **Pencatatan Detail:** Simpan informasi penting seperti nama perusahaan, posisi yang dilamar, tanggal melamar, kontak HR, dan catatan khusus.
+* **Pencatatan Detail:** Simpan informasi penting seperti nama perusahaan, posisi yang dilamar, tanggal melamar, dan catatan khusus.
 * **Dashboard Sederhana:** Lihat ringkasan cepat dari semua lamaran Anda.
-* **[Fitur Lainnya]:** (Contoh: Autentikasi user, upload dokumen CV, dll. - *Silakan sesuaikan*).
+* **[Fitur Lainnya]:** (Autentikasi user).
 
 ---
 
